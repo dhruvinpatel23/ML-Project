@@ -42,32 +42,28 @@ This application is built using **Python**, **Streamlit**, and **scikit-learn**,
 
 ---
 
-## 📂 Project Structure
 
-ipl_score_prediction/
-│
-├── ipl_score_predictor.py   # Streamlit application
-├── ml_model.pkl             # Trained ML model
-├── ipl_data.csv             # Dataset
 
----
+🔹 Steps to Run the Project
 
-## ▶️ How to Run the Project
+Step 1: Clone the GitHub repository
+Clone the project to your local system.
 
-1. Clone the repository  
-   git clone https://github.com/your-username/ipl-score-prediction.git  
-   cd ipl-score-prediction  
+Step 2: Install required Python libraries
+Install Streamlit, NumPy, Pandas, and Scikit-learn.
 
-2. Install required libraries  
-   pip install streamlit pandas numpy scikit-learn  
+Step 3: Generate the ML model
+Open the file IPL Score Prediction.ipynb in Google Colab and run all cells to train the model. Save the trained model as ml_model.pkl.
 
-3. Run the Streamlit app  
-   streamlit run ipl_score_prediction/ipl_score_predictor.py  
+Step 4: Place the model file
+Download ml_model.pkl from Colab and place it inside the ipl_score_prediction folder.
 
-4. Open the browser and go to  
-   http://localhost:8501  
+Step 5: Run the Streamlit application
+Run the command streamlit run ipl_score_prediction/ipl_score_predictor.py.
 
----
+Step 6: Open the web app
+Open the browser and go to http://localhost:8501
+ to view the predictions.
 
 ## 📊 Sample Output
 
